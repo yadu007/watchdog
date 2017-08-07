@@ -56,7 +56,7 @@ typedef int Py_ssize_t;
 typedef struct {
     /**
      * A pointer to the Python callback which will
-     * will in turn be called by our event handler
+     * in turn be called by our event handler
      * with event information. The Python callback
      * function must accept 2 arguments, both of which
      * are Python lists::
